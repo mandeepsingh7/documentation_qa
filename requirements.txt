@@ -1,0 +1,11 @@
+scrapy
+numpy
+pandas
+beautifulsoup4
+ipython
+python-dotenv
+langchain
+langchain_openai
+langchain_chroma
+openai
+streamlit
