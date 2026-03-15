@@ -1,4 +1,4 @@
-from global_settings import CHROMA_PATH, PROMPT_TEMPLATE, CHROMA_K, OPENAI_MODEL, MODEL_TEMPERATURE, MAX_TOKENS, MAX_RETRIES, TIMEOUT
+from src.global_settings import CHROMA_PATH, PROMPT_TEMPLATE, CHROMA_K, OPENAI_MODEL, MODEL_TEMPERATURE, MAX_TOKENS, MAX_RETRIES, TIMEOUT
 from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from langchain.prompts import ChatPromptTemplate

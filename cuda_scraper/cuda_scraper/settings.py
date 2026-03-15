@@ -12,6 +12,15 @@ BOT_NAME = "cuda_scraper"
 SPIDER_MODULES = ["cuda_scraper.spiders"]
 NEWSPIDER_MODULE = "cuda_scraper.spiders"
 
+DOWNLOAD_DELAY = 1
+CONCURRENT_REQUESTS = 4
+CONCURRENT_REQUESTS_PER_DOMAIN = 2
+
+AUTOTHROTTLE_ENABLED = True
+AUTOTHROTTLE_START_DELAY = 1
+AUTOTHROTTLE_MAX_DELAY = 10
+AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "cuda_scraper (+http://www.yourdomain.com)"
