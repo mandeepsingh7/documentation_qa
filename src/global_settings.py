@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 CHROMA_PATH = BASE_DIR / "storage" / "chroma"
 BM25_PATH = BASE_DIR / "storage" / "bm25" / "bm25_index.pkl"
-JSON_PATH = BASE_DIR / "data/cuda_runtime_docs_13_03_2026.json"
+JSON_PATH = BASE_DIR / "data" / "cuda_runtime_docs_13_03_2026.json"
 
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 150
@@ -13,11 +13,13 @@ CHUNK_OVERLAP = 150
 EMBEDDING_MODEL = "text-embedding-3-small"
 EMBEDDING_FUNCTION = OpenAIEmbeddings(model=EMBEDDING_MODEL)
 
+LLM_MODEL = "gpt-4.1-mini"
+
 NUM_QUERIES = 4
-CHROMA_K = 20 
+CHROMA_K = 5
 RRF_K = 60 
 
-RERANKED_INPUT_K = 40 
+RERANKED_INPUT_K = 20 
 RERANKED_OUTPUT_K = 5 
 
 RERANK_MODEL = "rerank-v4.0-fast"
@@ -68,10 +70,3 @@ Question:
 
 Answer:
 '''
-
-CHROMA_K = 5
-LLM_MODEL = "gpt-4.1-mini"
-MODEL_TEMPERATURE = 0.5
-MAX_TOKENS = None
-TIMEOUT = None
-MAX_RETRIES = 2

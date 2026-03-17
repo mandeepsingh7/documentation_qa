@@ -1,4 +1,5 @@
-import scrapy
+# This is old version. It scrapes the entire NVIDIA CUDA Docs
+
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from ..items import WebItem
