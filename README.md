@@ -48,15 +48,22 @@ documentation-qa/
 
 ## Tech Stack
 
-### Backend
+### Web Scraping 
 
--   Python
--   FastAPI
--   LangChain
+-   Scrapy
+
+### LLM & RAG
+
+-   Langchain
 -   ChromaDB
 -   BM25 (rank_bm25)
 -   Cohere Rerank
--   OpenAI API
+-   OpenAI API 
+
+### Backend
+
+-   FastAPI
+-   Docker
 
 ### Infrastructure
 
