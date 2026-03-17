@@ -44,6 +44,8 @@ documentation-qa/
 ```
 
 
+
+
 ## Tech Stack
 
 ### Backend
@@ -91,7 +93,7 @@ API and frontend code are maintained in separate repositories that serve as cent
 
 
 
-### Backend -- Projects Hub
+### Backend ─ Projects Hub
 
 https://github.com/mandeepsingh7/projects-hub
 
@@ -103,7 +105,7 @@ https://github.com/mandeepsingh7/projects-hub
 
 **Deployment:** AWS EC2
 
-### Frontend -- Portfolio
+### Frontend ─ Portfolio
 
 https://github.com/mandeepsingh7/portfolio
 
